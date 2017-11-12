@@ -1,0 +1,9 @@
+[user]
+	email = lin.guyuan@gmail.com
+	name = Eric Lin
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	tree = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
