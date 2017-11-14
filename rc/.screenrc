@@ -20,7 +20,7 @@ bindkey "^[r" clear
 bindkey "^[s" copy
 
 # - Alt + h : 將 screen 丟至背景執行。 (C-a d)
-bindkey "^[h" detach
+bindkey "^[[3~" detach
 
 # - Alt + i : 顯示所有執行中的 screen。 (C-a *)
 bindkey "^[i" displays
@@ -37,12 +37,10 @@ bindkey "^[t" screen
 bindkey "^[d" kill
 
 # - Alt + j/J : 切換至上個視窗。 (C-a n)
-bindkey "^[j" prev
-bindkey "^[J" prev
+bindkey "^[[" prev
 
 # - Alt + k/K : 切換至下個視窗。 (C-a p)
-bindkey "^[k" next
-bindkey "^[K" next
+bindkey "^[]" next
 
 # - Alt + `/= : 切換子視窗 0 ~ 子視窗12。
 bindkey "^[`" select 0 
@@ -72,18 +70,6 @@ bindkey "^[q" remove
 
 # - Alt + w : 切換當前分割區。 (C-a tab)
 bindkey "^[w" focus
-
-# == Ctrl ==
-
-# === 分頁(Tab) ===
-
-# - Ctrl + j/J : 切換至下個視窗。 (C-a n)
-bindkey "^j" next
-bindkey "^J" next
-
-# - Ctrl + k/K : 切換至上個視窗。 (C-a p)
-bindkey "^k" prev
-bindkey "^K" prev
 
 # == F1, F2, F3 .. ==
 
