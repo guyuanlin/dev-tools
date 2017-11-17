@@ -25,9 +25,6 @@ bindkey "^[[3~" detach
 # - Alt + i : 顯示所有執行中的 screen。 (C-a *)
 bindkey "^[i" displays
 
-# - Alt + L : 將 screen 上鎖。 (C-a C-x)
-bindkey "^[l" lockscreen
-
 # === 分頁(Tab) ===
 
 # - Alt + t : 新增子視窗。(C-a c)
